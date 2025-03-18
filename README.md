@@ -1,17 +1,17 @@
 # TIRCloud
 
-1 Overview
+## Overview
 TIRCloud dataset was built for image classification of cloud coverage on spaceborne TIR data.
 Image patches were clipped from satellite images acquired by ASTER TIR band 13, Landsat 8 TIRS band 10, and Landsat 9 TIRS-2 band 10. Then each of them was labeled as cloudy (0) or clear (1).
 Satellite images were globally sampled for land, whereas data over water bodies were selectively corresponding to 14 water temperature measurement sites in lakes and bays in Japan.
 In total, the dataset contains 920,489 images with a label, composed of 518,336 daytime clear sky condition images, 786 nighttime clear sky condition images, 400,577 daytime cloudy sky condition images, and 790 nighttime cloudy sky condition images.
 
-2 Data sources
+## Data sources
 	ASTER TIR band 13 L3A
 	Landsat 8 TIRS band 10 pre-collection, collection 1 or collection 2
 	Landsat 9 TIRS-2 band 10 collection 2
 
-3 Image data format
+## Image data format
 File format: Geotiff 
 Data type: float32
 Dimension: 160 x 160 x 1
@@ -19,14 +19,14 @@ DN value: TOA spectral radiance (W/m2 sr micron)
 Spatial resolution: 90m
 Map projection: LONLAT (ASTER), UTM (Landsat 8/9)
 
-4 Download
+## Download
 The dataset can be downloaded from here (44 GB) .
 Or type the following in the terminal.
 
 $ wget http://data.airc.aist.go.jp/TIRCloud/TIRCloud.tar.gz
 $ tar -zxvf TIRCloud.tar.gz
 
-5 directory configuration
+## directory configuration
 TIRCloud/
 	clear/
 		day/
@@ -68,6 +68,6 @@ datalist.csv describes a list of randomly sorted all training data, path to the 
 	:
 	clear/day/l8/land/LC81830452020092LGN00/LC81830452020092LGN00_2080_1120.tif,1
 
-Acknowledgement
+## Acknowledgement
 This dataset is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).
 The dataset was generated from ASTER data provided by AIST and Landsat 8/9 data prvided by USGS.

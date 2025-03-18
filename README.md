@@ -12,12 +12,12 @@ In total, the dataset contains 920,489 images with a label, composed of 518,336 
 	Landsat 9 TIRS-2 band 10 collection 2
 
 ## Image data format
-File format: Geotiff 
-Data type: float32
-Dimension: 160 x 160 x 1
-DN value: TOA spectral radiance (W/m2 sr micron)
-Spatial resolution: 90m
-Map projection: LONLAT (ASTER), UTM (Landsat 8/9)
+	File format: Geotiff 
+	Data type: float32
+	Dimension: 160 x 160 x 1
+	DN value: TOA spectral radiance (W/m2 sr micron)
+	Spatial resolution: 90m
+	Map projection: LONLAT (ASTER), UTM (Landsat 8/9)
 
 ## Download
 The dataset can be downloaded from here (44 GB) .

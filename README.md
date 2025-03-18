@@ -50,16 +50,17 @@ Or type the following in the terminal.
 		datalist.csv
 	
 	
-file name definition
-	scene id for ASTER: [path]_[row]_[date time]
-	scene id for Landsat 8/9: scene id, product id, [path]_[row]_[year DOY], or [LC08 or LC09]_[path][row]_[date]
-	ulx, uly: pixel coordinates of the cripped images in the original scenes
-	site name:
-		adogawaoki  asooki     kamayaoki  mikawa-buoy1  mikawa-buoy3  ogawarako  shinjiko
-		akashi      hannanoki  kobeport   mikawa-buoy2  nakaumi       osakaport  sumoto
+	file name definition
+		scene id for ASTER: [path]_[row]_[date time]
+		scene id for Landsat 8/9: scene id, product id, [path]_[row]_[year DOY], or [LC08 or LC09]_[path][row]_[date]
+		ulx, uly: pixel coordinates of the cripped images in the original scenes
+		site name:
+			adogawaoki  asooki     kamayaoki  mikawa-buoy1  mikawa-buoy3  ogawarako  shinjiko
+			akashi      hannanoki  kobeport   mikawa-buoy2  nakaumi       osakaport  sumoto
 
  
 datalist.csv describes a list of randomly sorted all training data, path to the image file and classification code (0: cloudy, 1: clear), formatted as:
+
 	cloudy/day/l8/land/LC80060552017315LGN00/LC80060552017315LGN00_1280_2240.tif,0
 	cloudy/day/aster/land/098_175_20010112010045/098_175_20010112010045_160_480.tif,0
 	clear/day/aster/land/104_205_20010311014058/104_205_20010311014058_160_160.tif,1

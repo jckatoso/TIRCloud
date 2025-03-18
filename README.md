@@ -23,8 +23,8 @@ In total, the dataset contains 920,489 images with a label, composed of 518,336 
 The dataset can be downloaded from here (44 GB) .
 Or type the following in the terminal.
 
-$ wget http://data.airc.aist.go.jp/TIRCloud/TIRCloud.tar.gz
-$ tar -zxvf TIRCloud.tar.gz
+	$ wget http://data.airc.aist.go.jp/TIRCloud/TIRCloud.tar.gz
+	$ tar -zxvf TIRCloud.tar.gz
 
 ## directory configuration
 TIRCloud/

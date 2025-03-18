@@ -27,27 +27,27 @@ Or type the following in the terminal.
 	$ tar -zxvf TIRCloud.tar.gz
 
 ## directory configuration
-TIRCloud/
-	clear/
-		day/
-			aster/
-				land/
-					[scene id]/
-						[scene id]_[ulx]_[uly].tif
-				waterbody/
-					[site name]/
-						[scene id]_[site name].tif
-			l8/
-				(same structure as "aster")
-			l9/
-				(same structure as "aster")
-		night/
-			aster/
-				(same structure as "day/aster")
-	cloudy/
-		(same structure as "clear")
+	TIRCloud/
+		clear/
+			day/
+				aster/
+					land/
+						[scene id]/
+							[scene id]_[ulx]_[uly].tif
+					waterbody/
+						[site name]/
+							[scene id]_[site name].tif
+				l8/
+					(same structure as "aster")
+				l9/
+					(same structure as "aster")
+			night/
+				aster/
+					(same structure as "day/aster")
+		cloudy/
+			(same structure as "clear")
 	
-	datalist.csv
+		datalist.csv
 	
 	
 file name definition

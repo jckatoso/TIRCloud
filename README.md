@@ -7,17 +7,17 @@ Satellite images were globally sampled for land, whereas data over water bodies 
 In total, the dataset contains 920,489 images with a label, composed of 518,336 daytime clear sky condition images, 786 nighttime clear sky condition images, 400,577 daytime cloudy sky condition images, and 790 nighttime cloudy sky condition images.
 
 ## Data sources
-	ASTER TIR band 13 L3A
-	Landsat 8 TIRS band 10 pre-collection, collection 1 or collection 2
-	Landsat 9 TIRS-2 band 10 collection 2
+- ASTER TIR band 13 L3A
+- Landsat 8 TIRS band 10 pre-collection, collection 1 or collection 2
+- Landsat 9 TIRS-2 band 10 collection 2
 
 ## Image data format
-	File format: Geotiff 
-	Data type: float32
-	Dimension: 160 x 160 x 1
-	DN value: TOA spectral radiance (W/m2 sr micron)
-	Spatial resolution: 90m
-	Map projection: LONLAT (ASTER), UTM (Landsat 8/9)
+- File format: Geotiff 
+- Data type: float32
+- Dimension: 160 x 160 x 1
+- DN value: TOA spectral radiance (W/m2 sr micron)
+- Spatial resolution: 90m
+- Map projection: LONLAT (ASTER), UTM (Landsat 8/9)
 
 ## Download
 The dataset can be downloaded from here (44 GB) .
@@ -50,13 +50,14 @@ Or type the following in the terminal.
 		datalist.csv
 	
 	
-	file name definition
-		scene id for ASTER: [path]_[row]_[date time]
-		scene id for Landsat 8/9: scene id, product id, [path]_[row]_[year DOY], or [LC08 or LC09]_[path][row]_[date]
-		ulx, uly: pixel coordinates of the cripped images in the original scenes
-		site name:
-			adogawaoki  asooki     kamayaoki  mikawa-buoy1  mikawa-buoy3  ogawarako  shinjiko
-			akashi      hannanoki  kobeport   mikawa-buoy2  nakaumi       osakaport  sumoto
+file name definition
+- scene id for ASTER: [path]_[row]_[date time]
+- scene id for Landsat 8/9: scene id, product id, [path]_[row]_[year DOY], or [LC08 or LC09]_[path][row]_[date]
+- ulx, uly: pixel coordinates of the cripped images in the original scenes
+- site name:
+  
+	adogawaoki  asooki     kamayaoki  mikawa-buoy1  mikawa-buoy3  ogawarako  shinjiko
+	akashi      hannanoki  kobeport   mikawa-buoy2  nakaumi       osakaport  sumoto
 
  
 datalist.csv describes a list of randomly sorted all training data, path to the image file and classification code (0: cloudy, 1: clear), formatted as:

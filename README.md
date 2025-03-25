@@ -6,6 +6,8 @@ Image patches were clipped from satellite images acquired by ASTER TIR band 13, 
 Satellite images were globally sampled for land, whereas data over water bodies were selectively corresponding to 14 water temperature measurement sites in lakes and bays in Japan.
 In total, the dataset contains 920,489 images with a label, composed of 518,336 daytime clear sky condition images, 786 nighttime clear sky condition images, 400,577 daytime cloudy sky condition images, and 790 nighttime cloudy sky condition images.
 
+![fig:TIRCloud example](https://github.com/jckatoso/TIRCloud/blob/main/TIRCloud_sample.png)
+
 ## Data sources
 - ASTER TIR band 13 L3A
 - Landsat 8 TIRS band 10 pre-collection, collection 1 or collection 2

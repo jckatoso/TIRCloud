@@ -22,10 +22,10 @@ In total, the dataset contains 920,489 images with a label, composed of 518,336 
 - Map projection: LONLAT (ASTER), UTM (Landsat 8/9)
 
 ## Download
-The dataset can be downloaded from [here](https://gsrt.digiarc.aist.go.jp/TIRCloud/TIRCloud.tar.gz) (44 GB) .
+The dataset can be downloaded from [here](https://gsrt.digiarc.aist.go.jp/pds/TIRCloud/TIRCloud.tar.gz) (44 GB) .
 Or type the following in the terminal.
 
-	$ wget https://gsrt.digiarc.aist.go.jp/TIRCloud/TIRCloud.tar.gz
+	$ wget https://gsrt.digiarc.aist.go.jp/pds/TIRCloud/TIRCloud.tar.gz
 	$ tar -zxvf TIRCloud.tar.gz
 
 ## directory configuration

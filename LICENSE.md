@@ -1,5 +1,5 @@
 <p align="center">TIRCloud Terms of Use</p>
-<p align="right">March 31, 2025</p>
+<p align="right">April 17, 2025</p>
 
 The users of the TIRCloud dataset must abide by the following Terms of Use:
 
